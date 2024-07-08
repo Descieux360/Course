@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    background-color: #e0e0e0;
+}
+
+header .logo{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 15px;
+   font-size:22px;
+  
+}
+
+header .logo a{
+ color: blue;    
+}
+
+header .navbar{
+    padding: 60px  30px 10px 0px;
+}
+
+header a{
+    text-decoration: none;
+    color: green;
+}
+
+header .navbar ul li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 10px; padding-right: 10px;
+    font-size: 20px;
+}
+
+.container{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+
+}
+
+.container .child{
+    border: 1px #e0e0e0 solid;
+    background-color: green;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.container :nth-child(7){
+   grid-column-start: 1;
+   grid-column-end: 4;
+   color: blue;
+
+}
+
+@media screen and (max-width: 610px) {
+      header{
+        display: block;
+        background-color: wheat;
+      }
+      header .logo{
+         text-align: center;
+      }
+      header .navbar{
+        padding: 10px 5px 5px 5px  ;
+        text-align: center;
+      }
+      header .navbar ul{
+          display: inline-flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+      }
+      header .navbar ul li {
+        padding: 0px 10px ;
+      }
+
+}
