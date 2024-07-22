@@ -3,60 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Izbiz | Imobilier</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main_style.css">
-   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="media_query.css">
+    <title>PortFolio</title>
 </head>
 <body>
-    <header>
-        <div class="logo"><h2><a href="home.html" target="_blank" rel="noopener noreferrer">Izbiz</a></h2></div>
-
-        <div class="navbar">
-            <ul>
-               <li><a href="home.html">Home</a></li>
-               <li><a href="#">Imobilier</a></li>
-               <li><a href="#">Location</a></li>
-               <li><a href="#" >Contact</a></li>
-               <li><a href="about.html">About</a></li>
-            </ul>
-        </div>
-    <!-- <div class="searchbar">
-            <input type="text" placeholder="">
-            <button>Search</button>
-        </div> --> 
+    <header id="head">
+        <h1>John Dave</h1>
+        <nav>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#project">Projects</a></li>
+              <li><a href="#about">About</a></li>
+              <li class="contact"><a href="#about">Contact</a></li>
+          </ul>
+        </nav>
     </header>
     <main>
-           <!-- <div class="container">
-            <div class="container-item" 
-            style="background-color: green;">A</div>
-            <div class="container-item" 
-            style="background-color: red;">B</div>
-            <div class="container-item" 
-            style="background-color: blue;">C</div>
-            <div class="container-item" 
-            style="background-color: purple;
-             grid-area: 2 / 1/ 4/3;
-             width:100%;">D</div>
-            <div class="container-item" 
-            style="background-color: black;">E</div>
-            <div class="container-item"
-            style="background-color:turquoise;">F</div>            
-            </div> -->
 
-            <form action="https://google.com" method="get">
-                <label for="name">Enter Your Name</label>
-                <input type="text" name="name" id="Name" placeholder="Philippe">
-                <label for="password">Enter your password</label>
-                <input type="password" name="password" id="user-password" placeholder="******">
-                <button type="submit">Summit</button>
-            </form>
+      <section id="hero">
+        <h2>Hi my name is John Dave</h2>
+        <p>John Dave is a skilled front-end developer known for his passion for creating intuitive and visually appealing web interfaces.
+          With a background in computer science and design, John blends technical expertise with a keen eye for user experience. 
+          He specializes in HTML, CSS, JavaScript, and frameworks like React.js, ensuring seamless integration of design and functionality. 
+          John thrives on collaborating with teams to deliver responsive and engaging web applications that exceed user expectations. 
+          Outside of coding, he enjoys exploring new technologies and contributing to open-source projects.</p>
+        <h3>Hire Me Now as a Front-end Developper</h3>
+      </section>
 
+      <section id="project">
+        <h2>Project</h2>
+        <div class="container">
 
+          <div class="container_item">
+             <img src="images/project1.jpg" alt="project-image" class="image" laoding = 'lazy'>
+             <p class="project_description">A restaurant Website at New York</p>
+             <hr>                     
+          </div>
+
+          <div class="container_item">
+              <img src="images/project2.jpg" alt="project-image" class="image">
+              <p class="project_description"> the website of an IT company</p>
+              <hr>
+          </div>
+
+          <div class="container_item">
+              <img src="images/project3.jpg" alt="project-image" class="image">
+              <p class="project_description">Web site of a Schhol</p>
+              <hr>
+          </div>
+
+          <div class="container_item">
+              <img src="images/project4.jpg" alt="project-image"  class="image">
+              <p class="project_description">Here is a company for artist finder</p>
+              <hr>
+          </div>
+
+          <div class="container_item">
+            <img src="images/project7.jpg" alt="project-image"  class="image">
+            <p class="project_description"> pharmacy at geneva</p>
+            <hr>
+        </div>
+
+        <div class="container_item">
+          <img src="images/project6.jpg" alt="project-image"  class="image">
+          <p class="project_description">Make a Trip in Japan</p>
+          <hr>
+      </div>  
+
+      <div class="container_item">
+        <img src="images/project8.jpg" alt="project-image"  class="image">
+        <p class="project_description">A Youtube Clone</p>
+        <hr>
+    </div> 
+    
+    <div class="container_item">
+      <img src="images/Project5.jpg" alt="project-image"  class="image">
+      <p class="project_description">Local Women Coop</p>
+      <hr>
+  </div>    
+      
+        </div>
+      </section>
+
+      <section id="skills">
+
+      </section>
+
+      <section id="about">
+        <h2>About me</h2>
+        <div class="john-dave">
+           <div class="john-dave-distractions">
+            <div class="john-dave-distractions-paragraph">
+              <h3>John Dave : Web Developper</h3>
+              <p>
+                Despite his dedication, John's main distraction is his penchant for social media.
+                 The allure of staying connected and updated with friends, trends, 
+                 and global events often diverts his attention from his professional and personal growth activities.
+                 This can sometimes lead to procrastination and reduced productivity in his various endeavors.
+              </p> 
+            </div>
+            <div class="contact-social">
+              <p>Hey these are my social media contact</p>
+              <div class="social_media_icons">
+                <img src="Social_Media_icons/gmail.svg" alt="">
+                <img src="Social_Media_icons/linkedin.svg" alt="">
+                <img src="Social_Media_icons/youtube.svg" alt="">
+                <img src="Social_Media_icons/facebook.svg" alt="">
+                <img src="Social_Media_icons/twitter.svg" alt="">
+              </div>
+            </div>
+           </div>
+           <img class="john-dave-image" src="images/john-dave.jpg" alt="">
+        </div>
+          <h3 class="header_testimonials">Testimonials | Custommer Experiences</h3>
+        <div class="testimonials">
+          <div class="testimonial">
+            <img src="images/testimonial1.jpg" alt="testimonial">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maio sdj sdb;fjasbdjkf kjasbedkjdjjk
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eos explicabo doloremque distinctio 
+              recusandae sed repellat! 
+              Dignissimos enim neque fuga quos impedit sed, vel quisquam. Repellat animi aut accusantium quam.
+              .</p>
+          </div>
+          <div class="testimonial">
+            <img src="images/testimonial2.jpg" alt="testimonial">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus maxime incidunt, officia 
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, voluptatem expedita 
+               itaque iusto similique eos repudiandae repellat velit qui sequi aliquid provident accusantium, 
+               ipsa aspernatur! Quas aut enim consectetur facere?  
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
-    <script src="Script/engine.js"></script>
+    <footer>
+      <p>&copy; 2024 copyright by John Dave</p>
+     <div class="terms">
+      <p>Terms & Conditions</p>
+     <p>Privacy Policy</p>
+    </div>
+    </footer>
 </body>
 </html>

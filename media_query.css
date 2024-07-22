@@ -1,0 +1,156 @@
+@media  screen and (min-width:2560px) {
+    body{
+        font-size: 1.1vw;
+    }
+        #project .container{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+}
+
+
+@media (max-width:900px) {
+    #hero{
+        min-height: max-content;
+    }
+    body{
+        padding-top: 55px;
+    }
+    #project .container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,1fr);
+    }
+    .contact-social .social_media_icons img{
+        width: 80px;
+        padding-left: 20px;
+        padding-right: 20px;
+        transition: 0.2s ease;
+    }
+    #about .john-dave .john-dave-image{
+        display: none;
+    }
+    #about .john-dave{
+       display: block;
+    }
+
+    #about .john-dave{
+        height: max-content;
+    }
+
+    #about .john-dave .john-dave-distractions{
+        width:100%;
+        height: max-content;
+        display: block;
+    } 
+    .contact-social{
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .contact-social .social_media_icons{
+       display: flex;
+       align-self: center;
+    }
+}
+
+@media screen and (max-width:650px){
+    #project .container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(8,1fr);
+    } 
+
+}
+
+@media screen and (max-width:550px){
+    body{
+         padding-top: 60px;
+    }
+    header{
+        width: 100%;    
+        background: #8AAAE5;
+        color: #ffffff;
+        font-family: "Roboto" , sans-serif;
+        display: block;
+        min-height: 30px;
+        padding-top:5px;
+        padding-bottom:15px;
+    }  
+    header nav ul li{
+        display: inline;
+        padding: 0 17px;
+        font-weight:600;
+    } 
+    header h1{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    header nav{
+        text-align: center;
+       padding-top: 5px;
+      }
+
+    #hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3vw;
+    }   
+
+    #hero h3{
+        align-items: center;
+    }
+
+    /* resizing about */
+
+    #about{
+        display: block;
+        margin-top: 10px;
+        background-color: #e2e1e1;
+    }
+    /* social media icons */
+
+    .contact-social .social_media_icons img{
+        width:70px;
+        padding-left: 20px;
+        padding-right: 20px;
+        transition: 0.2s ease;
+    }
+
+}
+
+@media screen and (max-width:400px){
+    body{
+        padding-top: 70px;
+    }
+    #hero{
+        height: max-content;
+    }
+    #hero h3{
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:396px){
+    header nav ul li{
+        display: inline;
+        padding: 0 10px;
+        font-weight:500;
+    }
+    header nav ul  .contact{
+        border: none;
+        padding: 0 4px;
+        margin: 0;
+        background-color: transparent;
+        border-radius: 0;
+    }
+    #about .john-dave-distractions .contact-social .social_media_icons{
+        width:100%;
+    }
+    #about .john-dave-distractions .contact-social .social_media_icons img{
+        width:60px;
+    }
+}
